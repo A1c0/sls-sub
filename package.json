@@ -1,0 +1,14 @@
+{
+  "name": "sls-add",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alexandre CONTASSOT <alexandrecontassot@hotmail.fr>",
+  "license": "MIT",
+  "scripts": {
+    "start": "serverless offline start --host 0.0.0.0 --skipCacheInvalidation"
+  },
+  "dependencies": {
+    "serverless": "^1.35.1",
+    "serverless-offline": "^3.31.3"
+  }
+}
