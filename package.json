@@ -8,6 +8,7 @@
     "start": "serverless offline start --host 0.0.0.0 --skipCacheInvalidation"
   },
   "dependencies": {
+    "ramda": "^0.26.1",
     "serverless": "^1.35.1",
     "serverless-offline": "^3.31.3"
   }
